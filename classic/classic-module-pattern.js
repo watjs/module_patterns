@@ -9,7 +9,7 @@ var module = (function () {
         get: function () {
             return players;
         }
-    }
+    };
 
 })();
 

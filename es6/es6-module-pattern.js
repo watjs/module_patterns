@@ -10,8 +10,5 @@ function get() {
 
 module.exports = {
     add: add,
-    get: function () {
-        return players;
-    }
+    get: get
 };
-
