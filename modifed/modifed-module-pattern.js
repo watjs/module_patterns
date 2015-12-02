@@ -2,7 +2,7 @@ var module = (function () {
 
     var players = [];
 
-    var returnAPI = {
+    var publicAPI = {
         add: function (name) {
             players.push(name);
         },
@@ -11,7 +11,7 @@ var module = (function () {
         }
     };
 
-    return returnAPI;
+    return publicAPI;
 
 })();
 
